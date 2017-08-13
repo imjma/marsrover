@@ -1,0 +1,24 @@
+{
+    "name": "sthtodo/marsrover",
+    "description": "Mars Rover Challenge",
+    "type": "project",
+    "require": {
+        "php": "^7.1",
+        "symfony/console": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "MarsRover\\": "src/MarsRover"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jie Ma",
+            "email": "codejma@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^6.3"
+    }
+}

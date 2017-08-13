@@ -1,0 +1,14 @@
+#!/usr/bin/env php
+
+<?php
+
+require_once __DIR__ . '/vendor/autoload.php';
+
+use Symfony\Component\Console\Application;
+use MarsRover\Panel;
+
+$app = new Application();
+
+$app->add(new Panel());
+
+$app->run();
